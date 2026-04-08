@@ -10,7 +10,7 @@ BlinkX API gives developers direct programmatic access to India's stock markets 
 
 <br/>
 
-[![Python SDK](https://img.shields.io/badge/Python_SDK-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/blinkx/blinkx-python)
+[![Python SDK](https://img.shields.io/badge/Python_SDK-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/DevBlinkX/PyBlinkXConnect)
 [![Java SDK](https://img.shields.io/badge/Java_SDK-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/DevBlinkX/JavaBlinkXConnect)
 [![Go SDK](https://img.shields.io/badge/Go_SDK-00ACD7?style=for-the-badge&logo=go&logoColor=white)](https://github.com/DevBlinkX/GoBlinkXConnect)
 [![Node.js SDK](https://img.shields.io/badge/Node.js_SDK-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://github.com/DevBlinkX/NodeJsBlinkXConnect)
