@@ -56,21 +56,24 @@ go get github.com/blinkx/blinkx-go
 
 ```python
 # Authenticate with BlinkX API
-from blinkx import TradeAPI
+from blinkxtradingapi import BlinkXTradingAPI
 
-client = TradeAPI(
-  api_key="bx_live_••••••••••••",
-  access_token="eyJhbGci..."
+client = BlinkXTradingAPI(
+  api_key="your_api_key",
+  access_token="your_access_token"
 )
 
 # Place an order in real-time
-order = client.place_order(
-  symbol="RELIANCE",
-  exchange="NSE",
-  quantity=10,
-  order_type="MARKET",
-  side="BUY"
-)
+blinkx.place_order(
+  variety=blinkx.VARIETY_REGULAR,
+  exchange=blinkx.EXCHANGE_BSE,
+  tradingsymbol="RELIANCE",
+  transaction_type=blinkx.TRANSACTION_TYPE_BUY,
+  quantity=1,
+  product=blinkx.PRODUCT_CNC,
+  price=3000,
+  order_type=blinkx.ORDER_TYPE_MARKET,
+  validity=blinkx.VALIDITY_DAY)
 
 # → { "order_id": "BX20260323001", "status": "PLACED" }
 ```
@@ -81,10 +84,10 @@ order = client.place_order(
 
 | Repository | Language | Description |
 |---|---|---|
-| [blinkx-python](https://github.com/blinkx/blinkx-python) | 🐍 Python | Official Python SDK |
-| [blinkx-java](https://github.com/blinkx/blinkx-java) | ☕ Java | Official Java SDK |
-| [blinkx-go](https://github.com/blinkx/blinkx-go) | 🐹 Go | Official Go client |
-| [blinkx-nodejs](https://github.com/blinkx/blinkx-nodejs) | 🟩 Node.js | Official Node.js SDK |
+| [blinkx-python]((https://github.com/DevBlinkX/PyBlinkXConnect)) | 🐍 Python | Official Python SDK |
+| [blinkx-java](https://github.com/DevBlinkX/JavaBlinkXConnect) | ☕ Java | Official Java SDK |
+| [blinkx-go](https://github.com/DevBlinkX/GoBlinkXConnect) | 🐹 Go | Official Go client |
+| [blinkx-nodejs](https://github.com/DevBlinkX/NodeJsBlinkXConnect) | 🟩 Node.js | Official Node.js SDK |
 
 ---
 
