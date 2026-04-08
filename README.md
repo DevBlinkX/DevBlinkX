@@ -84,7 +84,7 @@ blinkx.place_order(
 
 | Repository | Language | Description |
 |---|---|---|
-| [blinkx-python]((https://github.com/DevBlinkX/PyBlinkXConnect)) | 🐍 Python | Official Python SDK |
+| [blinkx-python](https://github.com/DevBlinkX/PyBlinkXConnect) | 🐍 Python | Official Python SDK |
 | [blinkx-java](https://github.com/DevBlinkX/JavaBlinkXConnect) | ☕ Java | Official Java SDK |
 | [blinkx-go](https://github.com/DevBlinkX/GoBlinkXConnect) | 🐹 Go | Official Go client |
 | [blinkx-nodejs](https://github.com/DevBlinkX/NodeJsBlinkXConnect) | 🟩 Node.js | Official Node.js SDK |
