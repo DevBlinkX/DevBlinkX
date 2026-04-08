@@ -24,7 +24,7 @@ BlinkX API gives developers direct programmatic access to India's stock markets 
 | Capability | Description |
 |---|---|
 | **Order Management** | Execute the full order lifecycle - up to **9 Orders Per Second** |
-| **Live Market Feed** | WebSocket streaming for **1,000+ instruments** across NSE & BSE |
+| **Live Market Feed** | WebSocket streaming for instruments across NSE & BSE |
 | **Historical Data** | Tick-by-tick and OHLCV candle data for backtesting and analysis |
 | **Portfolio Management** | Real-time holdings, positions, P&L and margin data |
 | **Authentication** | OAuth 2.0 - secure, stateless, daily-session based |
