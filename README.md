@@ -36,7 +36,7 @@ BlinkX API gives developers direct programmatic access to India's stock markets 
 **1. Sign up, Create your APP and get your API key**
 
 ```
-https://developeruat.blinkx.in/signup
+https://developer.blinkx.in/signup
 ```
 
 **2. Install the SDK**
@@ -67,7 +67,7 @@ client = BlinkXTradingAPI(
 blinkx.place_order(
   variety=blinkx.VARIETY_REGULAR,
   exchange=blinkx.EXCHANGE_BSE,
-  tradingsymbol="RELIANCE",
+  tradingsymbol="INDEX",
   transaction_type=blinkx.TRANSACTION_TYPE_BUY,
   quantity=1,
   product=blinkx.PRODUCT_CNC,
