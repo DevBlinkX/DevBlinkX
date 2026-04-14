@@ -56,12 +56,10 @@ go get github.com/blinkx/blinkx-go
 
 ```python
 # Authenticate with BlinkX API
-from blinkxtradingapi import BlinkXTradingAPI
+from pyblinkxapi import PyBlinkXAPI
 
-client = BlinkXTradingAPI(
-  api_key="your_api_key",
-  access_token="your_access_token"
-)
+blinkx = PyBlinkXAPI(api_key="your_api_key")
+blinkx.set_access_token("your_access_token")
 
 # Place an order in real-time
 blinkx.place_order(
