@@ -94,7 +94,7 @@ blinkx.place_order(
 ## 📚 Resources
 
 - 📖 &nbsp;[API Documentation](https://developer.blinkx.in/docs/)
-- 🔑 &nbsp;[Get Your API Key](https://developeruat.blinkx.in/signup)
+- 🔑 &nbsp;[Get Your API Key](https://developer.blinkx.in/signup)
 - 📧 &nbsp;[General Enquiries](https://blinkx.in/contact-us)
 
 ---
